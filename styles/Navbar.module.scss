@@ -1,0 +1,46 @@
+/* components/Navbar.module.scss */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(255, 215, 0, 0.5);
+    /* Golden shadow */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    // Set text color to white
+    color: #FFFFFF;
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white; // Gold color
+    }
+
+    .navLinks {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+
+        li {
+            font-size: 1rem;
+
+            // Set text color to white
+            color: #FFFFFF;
+
+            a {
+                color: white; // Gold color
+                text-decoration: none;
+                transition: color 0.3s ease-in-out;
+
+                &:hover {
+                    color: #FFD700;
+                }
+            }
+        }
+    }
+}

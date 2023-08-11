@@ -1,17 +1,10 @@
 /* styles/globals.scss */
 
-/* Import the Fira Code font */
-@font-face {
-    font-family: 'Fira Code';
-    src: url('/fonts/FiraCode-Regular.woff2') format('woff2'),
-        url('/fonts/FiraCode-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+/* Import the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Define font families */
-$font-mono: 'Fira Code', monospace;
+$font-mono: 'Roboto', monospace;
 
 /* Define color palette */
 $background-color: #000000;
@@ -33,3 +26,41 @@ a {
 }
 
 /* Add other global styles here */
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+
+    /* Adjust styles for mobile screens */
+    body {
+        font-size: 16px;
+        /* Example: Adjust font size for mobile */
+        padding: 1rem;
+        /* Example: Add padding for mobile layout */
+    }
+
+    /* Adjust other styles for mobile */
+}
+
+/* Tablet and Smaller Desktop Styles */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+    /* Adjust styles for tablet and smaller desktop screens */
+    body {
+        font-size: 18px;
+        /* Example: Adjust font size for tablet */
+    }
+
+    /* Adjust other styles for tablet and smaller desktop */
+}
+
+/* Larger Desktop Styles */
+@media (min-width: 1121px) {
+
+    /* Adjust styles for larger desktop screens */
+    body {
+        font-size: 20px;
+        /* Example: Adjust font size for desktop */
+    }
+
+    /* Adjust other styles for larger desktop */
+}
