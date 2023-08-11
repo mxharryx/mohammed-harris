@@ -1,0 +1,23 @@
+/* styles/globals.scss */
+
+/* Import the Fira Code font */
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/fonts/FiraCode-Regular.woff2') format('woff2'),
+        url('/fonts/FiraCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Define font families */
+$font-mono: 'Fira Code', monospace;
+
+/* Define base styles */
+body {
+    font-family: $font-mono;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add other global styles here */
