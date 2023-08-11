@@ -13,11 +13,23 @@
 /* Define font families */
 $font-mono: 'Fira Code', monospace;
 
+/* Define color palette */
+$background-color: #000000;
+$text-color: #FFFFFF;
+$accent-color: #FFD700;
+
 /* Define base styles */
 body {
     font-family: $font-mono;
     margin: 0;
     padding: 0;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+/* Add accent color to links or other elements as needed */
+a {
+    color: $accent-color;
 }
 
 /* Add other global styles here */
