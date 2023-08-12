@@ -10,12 +10,14 @@ $font-mono: 'Roboto', monospace;
 $background-color: #000000;
 $text-color: #FFFFFF;
 $accent-color: #FFD700;
-
+*{box-sizing: border-box;}
 /* Define base styles */
 body {
     font-family: $font-mono;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
     background-color: $background-color;
     color: $text-color;
 }

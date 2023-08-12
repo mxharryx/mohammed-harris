@@ -1,8 +1,10 @@
 /* components/Navbar.module.scss */
 
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     background-color: #000000;
     box-shadow: 0 2px 4px rgba(255, 215, 0, 0.5);
     /* Golden shadow */
