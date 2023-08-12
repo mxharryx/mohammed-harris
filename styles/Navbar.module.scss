@@ -102,3 +102,32 @@
     }
 
 }
+
+.hamburgerIcon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 1rem;
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .navLinks {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .hamburgerIcon {
+        display: flex;
+    }
+}

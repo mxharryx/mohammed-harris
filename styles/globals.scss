@@ -2,6 +2,7 @@
 
 /* Import the Roboto font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import'./Navbar.module.scss';
 
 /* Define font families */
 $font-mono: 'Roboto', monospace;
@@ -10,7 +11,11 @@ $font-mono: 'Roboto', monospace;
 $background-color: #000000;
 $text-color: #FFFFFF;
 $accent-color: #FFD700;
-*{box-sizing: border-box;}
+
+* {
+    box-sizing: border-box;
+}
+
 /* Define base styles */
 body {
     font-family: $font-mono;
@@ -39,7 +44,6 @@ a {
         padding: 1rem;
         /* Example: Add padding for mobile layout */
     }
-
     /* Adjust other styles for mobile */
 }
 
