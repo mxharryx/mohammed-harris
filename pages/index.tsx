@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar';
+import Leftside from '../components/Leftside';
+import styles from '../styles/Leftside.module.scss';
 
 
 
@@ -14,6 +16,11 @@ export default function Home() {
       </Head>
       <main>
         <Navbar/>
+        <div className={styles.leftside}>
+          <div>
+            <Leftside />
+          </div>
+        </div>
       </main>
     </>
   );
