@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import RightSide from '@/components/RightSide';
 import Head from 'next/head';
 import {motion} from 'framer-motion';
+import Banner from '@/components/Banner';
 
 export default function Home() {
   return (
@@ -20,17 +21,17 @@ export default function Home() {
           <motion.div 
           initial={{y: 50, opacity: 0}}
           animate={{y: 0, opacity: 1}}
-          transition={{delay: 0.5, duration: 0.5 }}
+          transition={{delay: 1.5, duration: 0.5 }}
           className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'>
             <LeftSide />
           </motion.div>
-          <div className='h-[88vh] mx-auto p-4'>
-            Middle
+          <div className='h-[88vh] w-full mx-auto p-4'>
+            <Banner />
           </div>
           <motion.div 
           initial={{y: 50, opacity: 0}}
           animate={{y: 0, opacity: 1}}
-          transition={{delay: 0.5, duration: 0.5 }}
+          transition={{delay: 1.5, duration: 0.5 }}
           className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0'>
             <RightSide />
           </motion.div>
