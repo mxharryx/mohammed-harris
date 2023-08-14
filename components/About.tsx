@@ -22,14 +22,10 @@ const About = () => {
           Proficient in Python, C++, and more, I'm geared with tools like Unity3D and Azure.
           </p>
         </div>
-        <div className={styles.imageContainer}>
           <div className={styles.container}>
-            <div>
               <Image className={styles.profile} src={profileImage} alt="profileImage"/>
-            </div> 
           </div>
         </div>
-      </div>
 
     </section>
   );
