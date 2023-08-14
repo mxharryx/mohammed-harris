@@ -1,11 +1,15 @@
 import React from 'react';
 import styles from '../styles/SectionTitle.module.scss';
 
-const Sectiontitle= () => {
+interface Props{
+    title: string;
+}
+
+const Sectiontitle= ({title}: Props) => {
   return (
     <h2 className={styles.title}>
         <span>//</span>{""}
-        About Me
+        {title}
         <span className={styles.border}></span>
     </h2>
   )
