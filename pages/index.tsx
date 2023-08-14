@@ -21,6 +21,9 @@ export default function Home() {
           <div className={styles.leftside}>
             <Leftside />
           </div>
+          <div className={styles.middle}>
+            Middle
+          </div>
           <div className={styles.rightside}>
             <Rightside />
           </div>
