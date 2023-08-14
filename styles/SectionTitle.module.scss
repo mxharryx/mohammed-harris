@@ -1,0 +1,34 @@
+.title{
+    font-weight: 600; // Set your desired font weight
+    font-size: 1rem; // Set your desired font size
+    display: flex;
+    align-items: center;
+    span{
+        font-size: 1rem; 
+        color: #B8860B;
+        margin-right: 0.5rem;
+    }
+    @media (min-width: 768px) { // Adjust the breakpoint value as needed
+        span{
+            font-size: 1.125rem; // Set your desired font size for medium screens and larger
+    }
+}
+}
+
+.border {
+    display: none;
+
+
+    @media (min-width: 768px) {
+        display: inline-flex;
+    }
+
+    @media (min-width: 1024px) {
+            width: 18rem; // Set your desired width for large screens and larger
+    }
+
+    height: 0.5px;
+    background-color: #B8860B;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}

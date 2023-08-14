@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Leftside from '../components/Leftside';
 import Rightside from '../components/Rightside';
 import Banner from '../components/Banner';
+import About from '../components/About';
 import styles from '../styles/sections.module.scss';
 
 
@@ -24,6 +25,7 @@ export default function Home() {
           </div>
           <div className={styles.middle}>
             <Banner />
+            <About />
           </div>
           <div className={styles.rightside}>
             <Rightside />

@@ -26,11 +26,15 @@ const Banner = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1 }}
                 className={styles.para}>{""}
-                I am a recent Master of Applied Computing graduate from the University of Windsor.
-                With a passion for crafting immersive experiences, I've honed my skills in software development, cloud computing, and 3D visualization.
-                From creating captivating game mechanics to building user-centric interfaces, I thrive on bringing ideas to life.
-                Currently on the lookout for exciting opportunities, I'm eager to contribute my innovative mindset to a dynamic team.
-                Let's connect and explore how we can collaborate!
+                Back in 2016, I took the plunge into the world of computer science during my Bachelor's days.
+                
+                Since then, I've been on an incredible journey, from crafting interactive game mechanics to freelancing as a software developer. 
+                
+                Today, as a fresh Master's graduate, I'm excited to bring my skills in cloud computing and 3D visualization to new horizons. 
+                
+                I'm on the lookout for opportunities to collaborate and innovate. 
+                
+                When I'm not shaping ideas on the screen, you'll find me exploring the outdoors, sharing moments with loved ones, or uncovering digital gems in the virtual realms. Let's connect and create something amazing together!
                 {""}
             </motion.p>
             <motion.button initial={{ y: 10, opacity: 0 }}
