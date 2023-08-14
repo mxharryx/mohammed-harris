@@ -1,0 +1,28 @@
+.side{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    color: #B8860B;
+    margin-top: 400px;
+    a {
+        text-decoration: none; /* Remove underline from the link */
+    }
+}
+
+.email{
+    font-size: .80rem;
+    transform: rotate(90deg);
+    width: 18rem;
+    letter-spacing: 0.05rem;
+    color: #B8860B;
+}
+
+.border{
+    width: 2px;
+    height: 10px;
+    background-color: #B8860B;
+}

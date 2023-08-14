@@ -1,0 +1,30 @@
+.banner{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+
+.leftside{
+    display: none;
+    display: inline-flex;
+    width: 32px;
+    height: 100%;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+
+.rightside{
+    display: none;
+    display: inline-flex;
+    width: 32px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
