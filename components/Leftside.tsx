@@ -6,8 +6,8 @@ import{motion} from "framer-motion";
 const LeftSide =()=>{
     return (
     <div className={styles.iconStyles}>
-        <motion.div initial={{ x: -50, opacity: 0 }} // Initial position and opacity
-                animate={{ x: 0, opacity: 1 }} // Final position and opacity
+        <motion.div initial={{ y: 50, opacity: 0 }} // Initial position and opacity
+                animate={{ y: 0, opacity: 1 }} // Final position and opacity
                 transition={{ delay: 0.5, duration: 0.5 }} // Animation delay and duration
                 className={styles.icon}>
             <div className={styles.socialIcons}>

@@ -3,6 +3,7 @@
 /* Import the Roboto font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import'./Navbar.module.scss';
+@import './Banner.module.scss';
 
 /* Define font families */
 $font-mono: 'Roboto', monospace;
@@ -11,6 +12,27 @@ $font-mono: 'Roboto', monospace;
 $background-color: #000000;
 $text-color: #FFFFFF;
 $accent-color: #FFD700;
+
+$maxwidth-container: 1440px;
+$maxwidth-contentContainer: 1140px;
+$maxwidth-containerSmall: 1024px;
+$maxwidth-containers: 768px;
+
+.max-w-container {
+    max-width: $maxwidth-container;
+}
+
+.max-w-contentContainer {
+    max-width: $maxwidth-contentContainer;
+}
+
+.max-w-containerSmall {
+    max-width: $maxwidth-containerSmall;
+}
+
+.max-w-containers {
+    max-width: $maxwidth-containers;
+}
 
 * {
     box-sizing: border-box;

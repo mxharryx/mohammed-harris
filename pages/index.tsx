@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar';
 import Leftside from '../components/Leftside';
 import Rightside from '../components/Rightside';
+import Banner from '../components/Banner';
 import styles from '../styles/sections.module.scss';
 
 
@@ -22,7 +23,7 @@ export default function Home() {
             <Leftside />
           </div>
           <div className={styles.middle}>
-            Middle
+            <Banner />
           </div>
           <div className={styles.rightside}>
             <Rightside />
