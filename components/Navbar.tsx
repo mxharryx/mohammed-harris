@@ -265,7 +265,7 @@ const Navbar = () => {
                                         <motion.a
                                             initial={{ y: 20, opacity: 0 }}
                                             animate={{ y: 0, opacity: 1 }}
-                                            transition={{ delay: 1, ease: "easeIn" }}
+                                            transition={{ delay: 5, ease: "easeIn" }}
                                             href='mailto:mohammedharrisjinnah@gmail.com' className='text-xl w-42 tracking-wide text-textDarkGold  hover:text-textLightGold hover:-translate-y-2 transition-all duration-300'>
                                             <FaEnvelope />
                                         </motion.a>
