@@ -3,10 +3,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import SectionTitle from './SectionTitle';
-import {FaPython, FaHtml5, FaCss3, FaReact} from 'react-icons/fa';
+import {FaPython, FaHtml5, FaCss3, FaReact, FaJava} from 'react-icons/fa';
 import {SiDjango} from 'react-icons/si';
-import {BiLogoJavascript} from 'react-icons/bi';
-import {TbBrandJavascript, TbBrandPowershell} from 'react-icons/tb'
+import {BiLogoTailwindCss,BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';
+import {TbBrandVercel,TbBrandJavascript, TbBrandPowershell, TbBrandNextjs} from 'react-icons/tb';
+
 
 import ProjectCards from './ProjectCards';
 
@@ -38,6 +39,23 @@ const Projects = () => {
         des='Visually appealing landing Page for a fictional shoe brand'
         listItem={[<FaCss3 />, <FaHtml5 />, <BiLogoJavascript />]}
         link='https://github.com/mxharryx/Product-Website'/>
+        <ProjectCards title='NextJS Dynamic Portfolio'
+        des='Personal Portfolio website describing who I am and what I do.'
+        listItem={[<TbBrandNextjs />, <BiLogoTypescript />, <BiLogoTailwindCss />,<TbBrandVercel/>]}
+        link='https://github.com/mxharryx/Product-Website'/>
+        <ProjectCards title='Weeather Application'
+        des='Weather Application implemented by featching weather data and writing API Services. Includes getting User location using Geolocation API. '
+        listItem={[<FaReact />, <BiLogoJavascript/>,  <FaCss3/>]}
+        link='https://github.com/mxharryx/Product-Website'/>
+        <ProjectCards title='Search Engine'
+        des='Implementing a search engine with a web crawler algorithm by executing HTML to text parser functionality. Also implemented caching feature on the search engine '
+        listItem={[<FaHtml5 />, <FaJava/>]}
+        link='https://github.com/mxharryx/Appu'/>
+      </div>
+      <div className='mt-12 flex items-center justify-center'>
+        <button className='w-36 h-12 rounded-md text-textDarkGold text-[13px] border border-textDarkGold hover:bg-hoverColor duration-300'>
+          View More
+        </button>
       </div>
     </div>
   )
