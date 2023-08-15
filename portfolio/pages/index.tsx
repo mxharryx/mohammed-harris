@@ -8,6 +8,7 @@ import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Education from '@/components/Education';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
             <Education />
             <Experience />
             <Projects />
+            <Contact />
           </div>
           <motion.div 
           initial={{y: 50, opacity: 0}}
