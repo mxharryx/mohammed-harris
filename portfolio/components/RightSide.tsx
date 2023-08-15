@@ -8,7 +8,7 @@ const RightSide = () => {
         <a href='mailto:mohammedharrisjinnah@gmail.com' className='text-md w-42 tracking-wide text-textDarkGold  hover:text-textLightGold hover:-translate-y-2 transition-all duration-300'>
             <FaEnvelope />
         </a>
-        <span className='w-[2px] h-52 bg-textDarkGold inline-flex'></span>
+        <span className='w-[2px] h-72 bg-textDarkGold inline-flex'></span>
     </div>
   );
 }
