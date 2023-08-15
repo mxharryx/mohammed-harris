@@ -37,6 +37,7 @@ module.exports = {
         textLight:"#ccd6f6",
         textDark:"#8892b0",
         hoverColor:"#ffd300",
+        hoverBg:"#36454F",
       }
 
     },

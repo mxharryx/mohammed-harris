@@ -25,13 +25,28 @@ const Experience = () => {
       <SectionTitle title='Where I gained Experience'/>
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className=' md:w-32 flex flex-col'>
-          <li 
-          onClick={handleInfocrush}
-          className='border-l-2  border-l-textLightGold text-textDark bg-transparent hover:bg-textLightGold py-3 text-sm cursor-pointer duration-300 px-8 font-medium'>Infocrush Consulting and Services Inc.</li>
-
-          <li 
-          onClick={handleUnadio}
-          className='border-l-2  border-l-textDark text-textDark bg-transparent hover:bg-textLightGold py-3 text-sm cursor-pointer duration-300 px-8 font-medium'>Unadio</li>
+        <li
+  onClick={handleInfocrush}
+  className={`py-3 px-8 text-sm font-medium cursor-pointer duration-300
+    ${
+      workInfocrush
+        ? "border-l-2 border-l-textLightGold text-textDarkGold bg-transparent hover:bg-hoverBg"
+        : "border-l-2 border-l-textDark text-textDark bg-transparent hover:bg-hoverBg"
+    }`}
+>
+  Infocrush Consulting and Services Inc.
+</li>
+<li
+  onClick={handleUnadio}
+  className={`py-3 px-8 text-sm font-medium cursor-pointer duration-300
+    ${
+      workUnadio
+        ? "border-l-2 border-l-textLightGold text-textDarkGold bg-transparent hover:bg-hoverBg"
+        : "border-l-2 border-l-textDark text-textDark bg-transparent hover:bg-hoverBg"
+    }`}
+>
+  Unadio
+</li>
         </ul>
         {workInfocrush && <Infocrush />}
         {workUnadio && <Unadio />}
