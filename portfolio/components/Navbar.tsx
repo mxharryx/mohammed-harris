@@ -27,8 +27,8 @@ const Navbar = () => {
         e.currentTarget.classList.add("active");
     };
 
-    function handleClick(e:any){
-        if(e.target.contains(ref.current)){
+    function handleClick(e: any) {
+        if (e.target.contains(ref.current)) {
             setShowMenu(false);
         }
     }
@@ -95,6 +95,16 @@ const Navbar = () => {
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.4 }}>
                                 <span className='text-textLightGold'>//</span>Projects</motion.li>
+                        </Link>
+                        <Link
+                            href="#skills"
+                            onClick={handleScroll}
+                            className='flex items-center gap-1 font-medium text-textDark hover:text-textLightGold cursor-pointer duration-300 nav-link'>
+                            <motion.li
+                                initial={{ y: -10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.2 }}>
+                                <span className='text-textLightGold'>//</span>Skills</motion.li>
                         </Link>
                         <Link
                             href="#contact"
@@ -187,13 +197,23 @@ const Navbar = () => {
                                                 <span className='text-textLightGold'>//</span>Projects</motion.li>
                                         </Link>
                                         <Link
+                                            href="#skills"
+                                            onClick={handleScroll}
+                                            className='flex items-center gap-1 font-medium text-textDark hover:text-textLightGold cursor-pointer duration-300 nav-link'>
+                                            <motion.li
+                                                initial={{ y: -10, opacity: 0 }}
+                                                animate={{ y: 0, opacity: 1 }}
+                                                transition={{ duration: 0.2, delay:0.7 }}>
+                                                <span className='text-textLightGold'>//</span>Skills</motion.li>
+                                        </Link>
+                                        <Link
                                             href="#contact"
                                             onClick={handleScroll}
                                             className='flex items-center gap-1 font-medium text-textDark hover:text-textLightGold cursor-pointer duration-300 nav-link'>
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
-                                                transition={{ duration: 0.2, delay: 0.7 }}>
+                                                transition={{ duration: 0.2, delay: 0.8}}>
                                                 <span className='text-textLightGold'>//</span>Contact</motion.li>
                                         </Link>
                                     </ul>
@@ -201,7 +221,7 @@ const Navbar = () => {
                                         <motion.button
                                             initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
-                                            transition={{ delay: 0.8, ease: "easeIn" }}
+                                            transition={{ delay: 0.9, ease: "easeIn" }}
                                             className="px-4 py-2 rounded-md text-textDarkGold text-[13px] border border-textDarkGold hover:bg-hoverColor duration-300">Resume</motion.button>
                                     </a>
                                     <div className='mdl:inline-flex xl:hidden items-center justify-center w-full py-6 gap-4'>
