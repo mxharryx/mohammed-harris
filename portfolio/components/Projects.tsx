@@ -13,6 +13,7 @@ import ProjectCards from './ProjectCards';
 
 const Projects = () => {
   return (
+    <section id='projects'>
     <div className='max-w-contentContainer mx-auto px-4 py-24'>
       <div className='w-full flex flex-col items-center'>
         <h2 className='font-titleFont text-2xl font-semibold flex items-center'>
@@ -60,6 +61,7 @@ const Projects = () => {
         </a>
       </div>
     </div>
+    </section>
   )
 }
 
