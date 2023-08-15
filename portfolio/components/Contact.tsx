@@ -11,6 +11,10 @@ const Contact = () => {
       <p className='max-w-[600px] text-center text-textDark'>
       I am <span className='text-textDarkGold'>Actively seeking</span> Job opportunities in <span className='text-textLightGold'>Cloud Development</span>, <span className='text-textLightGold'>Full Stack Development</span>, and <span className='text-textLightGold'>Game Development</span> roles.
       </p>
+      <a href='mailto:mohammedharrisjinnah@gmail.com'>
+        {""}
+        <button className='w-40 h-14 border border-textDarkGold mt-6 font-titleFont text-sm text-textDarkGold tracking-wider rounded-md hover:bg-hoverColor hover:text-textDark duration-300'>Say Hello 😄</button>
+      </a>
       </section>
   )
 }

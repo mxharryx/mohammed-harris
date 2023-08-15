@@ -9,6 +9,7 @@ import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Education from '@/components/Education';
 import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale-1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overscroll-y-scroll'>
+    <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overscroll-y-scroll scrollbar-thin scrollbar-track-textDark/20 scrollbar-thumb-textDarkGold/50'>
       <Navbar />
       <div>
         <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between '>
@@ -37,6 +38,7 @@ export default function Home() {
             <Experience />
             <Projects />
             <Contact />
+            <Footer />
           </div>
           <motion.div 
           initial={{y: 50, opacity: 0}}
