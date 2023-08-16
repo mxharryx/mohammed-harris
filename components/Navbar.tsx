@@ -40,9 +40,9 @@ const Navbar = () => {
                     initial={{ opacity: 0 }} // Initial opacity
                     animate={{ opacity: 1 }} // Final opacity
                     transition={{ duration: 0.5 }} // Animation duration
-                    className="text-white text-1.5xl font-bold"
+                    className="text-textDarkGold text-2xl font-bold"
                 >
-                    MOHAMMED-HARRIS();
+                    mohammed-harris();
                 </motion.div>
                 <div className='hidden mdl:inline-flex items-center gap-7'>
                     <ul className='flex text-[13px] gap-7'>
