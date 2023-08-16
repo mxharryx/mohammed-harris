@@ -4,7 +4,7 @@ import { FaAws, FaBootstrap, FaDocker, FaFigma, FaHtml5, FaJava, FaNodeJs, FaPyt
 import { MdJavascript } from 'react-icons/md';
 import { SiBlender, SiCplusplus, SiCsharp, SiExpress, SiMicrosoftazure, SiMysql, SiPostman, SiUnrealengine } from 'react-icons/si';
 import { TbBrandDjango, TbBrandNextjs } from 'react-icons/tb';
-import SectionTitle from './SectionTitle';
+import SectionTitle from './SectiontTitle';
 
 const Skills = () => {
   return (

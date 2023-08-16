@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SectionTitle from './SectionTitle';
+import SectionTitle from './SectiontTitle';
 import Infocrush from './works/Infocrush';
 import Unadio from './works/Unadio';
 

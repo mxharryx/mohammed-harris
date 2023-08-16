@@ -1,11 +1,16 @@
 import Image from 'next/image';
 import React from 'react'
-import SectionTitle from './SectionTitle';
+import SectionTitle from './SectiontTitle';
 import profileImage from '../public/assets/images/profileImage.jpg';
+import {motion} from 'framer-motion';
 
 const About = () => {
   return (
-    <section id="about"
+    <motion.section 
+    initial={{y:10, opacity:0}}
+        animate={{y:0, opacity:1}}
+        transition={{duration:0.5, delay:1.7}}
+    id="about"
     className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8'>
        <SectionTitle  title="More about me"/>
        <div className='flex flex-col lgl:flex-row gap-16'>
@@ -34,7 +39,7 @@ const About = () => {
                 </div>
         </div>
        </div>
-       </section>
+       </motion.section>
   );
 }
 

@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
-import SectionTitle from './SectionTitle';
+import SectionTitle from './SectiontTitle';
 import {FaPython, FaHtml5, FaCss3, FaReact, FaJava} from 'react-icons/fa';
 import {SiDjango} from 'react-icons/si';
 import {BiLogoTailwindCss,BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';

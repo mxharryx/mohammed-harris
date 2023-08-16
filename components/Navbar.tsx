@@ -203,7 +203,7 @@ const Navbar = () => {
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
-                                                transition={{ duration: 0.2, delay:0.7 }}>
+                                                transition={{ duration: 0.2, delay: 0.7 }}>
                                                 <span className='text-textLightGold'>//</span>Skills</motion.li>
                                         </Link>
                                         <Link
@@ -213,7 +213,7 @@ const Navbar = () => {
                                             <motion.li
                                                 initial={{ y: -10, opacity: 0 }}
                                                 animate={{ y: 0, opacity: 1 }}
-                                                transition={{ duration: 0.2, delay: 0.8}}>
+                                                transition={{ duration: 0.2, delay: 0.8 }}>
                                                 <span className='text-textLightGold'>//</span>Contact</motion.li>
                                         </Link>
                                     </ul>
@@ -261,15 +261,14 @@ const Navbar = () => {
                                             </span>
                                         </motion.a >
                                     </div>
-                                    <div>
-                                        <motion.a
-                                            initial={{ y: 20, opacity: 0 }}
-                                            animate={{ y: 0, opacity: 1 }}
-                                            transition={{ delay: 5, ease: "easeIn" }}
-                                            href='mailto:mohammedharrisjinnah@gmail.com' className='text-xl w-42 tracking-wide text-textDarkGold  hover:text-textLightGold hover:-translate-y-2 transition-all duration-300'>
-                                            <FaEnvelope />
-                                        </motion.a>
-                                    </div>
+                                    <motion.a 
+                                    initial={{ y: 20, opacity: 0 }}
+                                    animate={{ y: 0, opacity: 1 }}
+                                    transition={{ delay: 1, ease: "easeIn" }}
+                                    href='mailto:mohammedharrisjinnah@gmail.com' 
+                                    className='text-md w-42 tracking-wide text-textDarkGold  hover:text-textLightGold hover:-translate-y-2 transition-all duration-300'>
+                                        <FaEnvelope />
+                                    </motion.a>
                                 </div>
                             </motion.div>
 
