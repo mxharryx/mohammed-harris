@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Grad from './education/grad';
-import Undergrad from './education/undergrad';
+import Grad from './education/Grad';
+import Undergrad from './education/Undergrad';
 import SectionTitle from './SectiontTitle';
 
 const Education = () => {
