@@ -1,6 +1,5 @@
-import LeftSide from '@/components/LeftSide';
+
 import Navbar from '@/components/Navbar';
-import RightSide from '@/components/RightSide';
 import Head from 'next/head';
 import {motion} from 'framer-motion';
 import Banner from '@/components/Banner';
@@ -11,6 +10,8 @@ import Education from '@/components/Education';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Skills from '@/components/Skills';
+import LeftSide from '@/components/Leftside';
+import RightSide from '@/components/Rightside';
 
 export default function Home() {
   return (
