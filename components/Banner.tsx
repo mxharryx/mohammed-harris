@@ -27,10 +27,7 @@ const Banner = () => {
             I specialize in building interactive games, developing user-friendly interfaces, and leveraging technologies to bring ideas to life with creativity and precision.
             {""}
         </motion.p>
-        <motion.button 
-        initial={{y:10, opacity:0}}
-        animate={{y:0, opacity:1}}
-        transition={{duration:0.5,delay:2.3}}className='w-52 h-14 text-sm font-titleFont border border-textDarkGold rounded-md text-textDarkGold tracking-wide hover:bg-hoverColor duration-300'>My learning grove</motion.button>
+        
     </section>
     );
 }
