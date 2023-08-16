@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#### ⚡️ Welcome to my Marvelous GitHub Universe!
+![Make your README](https://github.com/mxharryx/mxharryx/assets/57700846/a91ddb2e-b6d5-45ca-84e8-f30ed8b67cc9)
 
-## Getting Started
+👋 Greetings, recruiters and fellow heroes! I am Mohammed Harris Jinnah Mohideen, a master of applied computing with a passion for creating marvels in the coding realm. Brace yourselves for an adventure like no other!
 
-First, run the development server:
+🦸‍♂️ Coding Avenger: Armed with my keyboard and coding prowess, I tackle challenges with the might of a superhero. Bugs stand no chance against my powers!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+🌟 Master of Heroic Experiences: Using Unity3D and Unreal Engine, I forge immersive realms that transport users into extraordinary adventures.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎮 Versatile Hero: Python, C, C++, HTML5, Java, JavaScript—my coding superpowers span multiple languages. I adapt to any mission with ease!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+⚡️ Agile Defender: With Scrum and Kanban, I lead development teams like a shield-wielding warrior. Projects move swiftly under my vigilant guidance!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+🌌 Cosmic Innovator: Exploring the frontiers of 3D visualization, computer graphics, and video games, I push boundaries and create experiences that defy imagination. Prepare to witness true marvels!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+🎓 Academic Superpower: Equipped with a Master's in Applied Computing and a Bachelor's in Computer Science and Engineering, I'm ready to unleash my heroic skills in the professional world!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🔑 Azure Assembler: Behold! I am Microsoft Certified: Azure Fundamentals, harnessing the power of the cloud like a true superhero.
 
-## Learn More
+Together, we'll create coding marvels that leave a lasting impact.
 
-To learn more about Next.js, take a look at the following resources:
+Excelsior! ✨
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/mxharryx)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/mohammedharrisjinnah/)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mxharryx)](https://github.com/anuraghazra/github-readme-stats)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+<!--
+**mxharryx/mxharryx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
