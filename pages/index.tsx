@@ -18,12 +18,12 @@ export default function Home() {
     <>
     <Head>
     <title>Mohammed Harris | Software Developer | Portfolio</title>
-      <meta name="description" content="Actively Seeking Software Developer Jobs in Canada "/>
+      <meta name="description" content="Passionate software developer actively seeking new opportunities. Skilled in creating innovative solutions and crafting engaging user experiences. Eager to contribute my expertise to a dynamic team and take on new challenges in the world of technology. Open to exciting job opportunities that align with my skills and drive for excellence. "/>
       <meta name="viewport" content="width=device-width, initial-scale-1" />
       <meta name="keywords" content="Mohammed Harris Jinnah Mohideen, Mohammed, Mohamed, Muhammad, Harris, Mohideen, Software Developer, Game Developer, Cloud Developer, Portfolio" />
       <meta name="author" content="Mohammed Harris" />
       <meta property="og:title" content="Mohammed Harris | Software Developer | Portfolio" />
-      <meta property="og:description" content="Actively Seeking Software Developer Jobs in Canada" />
+      <meta property="og:description" content="Passionate software developer actively seeking new opportunities. Skilled in creating innovative solutions and crafting engaging user experiences. Eager to contribute my expertise to a dynamic team and take on new challenges in the world of technology. Open to exciting job opportunities that align with my skills and drive for excellence." />
       <meta property="og:image" content="https://mohammed-harris.vercel.app/home_page.png" />
       <meta property="og:type" content="website"/>
       <meta property="og:url" content="https://mohammed-harris.vercel.app" />
