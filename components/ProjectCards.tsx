@@ -25,7 +25,7 @@ const ProjectCards = ({title, des, listItem, link}: Props) => {
         {des}
         </p>
         </div>
-        <ul className='text-xs mdl:text-sm text-textLightGold flex items-center gap-2 justify-between flex-wrap'>
+        <ul className='text-md mdl:text-sm text-textLightGold flex items-center gap-2 justify-between flex-wrap'>
             {
               listItem.map((item, i) => (
                 <li key={i}>{item}</li>

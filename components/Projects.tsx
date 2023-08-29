@@ -3,8 +3,8 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import SectionTitle from './SectiontTitle';
-import {FaPython, FaHtml5, FaCss3, FaReact, FaJava} from 'react-icons/fa';
-import {SiDjango} from 'react-icons/si';
+import {FaPython, FaHtml5, FaCss3, FaReact, FaJava, FaStripeS} from 'react-icons/fa';
+import {SiDjango, SiMysql, SiPrisma} from 'react-icons/si';
 import {BiLogoTailwindCss,BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';
 import {TbBrandVercel,TbBrandJavascript, TbBrandPowershell, TbBrandNextjs} from 'react-icons/tb';
 
@@ -32,10 +32,11 @@ const Projects = () => {
         Includes interactive reviews and rating system.'
         listItem={[<FaPython />, <FaHtml5 />, <SiDjango />]}
         link='https://github.com/mxharryx/GoldenTicket'/>
-        <ProjectCards title='Discord Clone'
-        des='A clone app of discord which includes A User Login, Sign up, and Chatroom.'
-        listItem={[<TbBrandPowershell />, <FaHtml5 />, <FaCss3 />, <TbBrandJavascript />, <FaReact /> ]}
-        link='https://github.com/mxharryx/GoldenTicket'/>
+        <ProjectCards title='AI - Companion'
+        des='AI Chat Application that lets you create a fictional AI Companion by providing relevant details. 
+        Built as a SaaS product incorporating Stripe.'
+        listItem={[<TbBrandNextjs />, <FaReact />, <FaStripeS />, <SiPrisma />, <SiMysql />, <BiLogoTailwindCss />]}
+        link='https://ai-companion-black.vercel.app'/>
         <ProjectCards title='Landing Page'
         des='Visually appealing landing Page for a fictional shoe brand'
         listItem={[<FaCss3 />, <FaHtml5 />, <BiLogoJavascript />]}
