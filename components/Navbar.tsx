@@ -117,7 +117,7 @@ const Navbar = () => {
                                 <span className='text-textLightGold'>//</span>Contact</motion.li>
                         </Link>
                     </ul>
-                    <a href='/assets/Resume-Harris.pdf'>
+                    <a href='/assets/Mohammed-Harris-Jinnah-Mohideen-Resume.pdf'>
                         <motion.button
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
