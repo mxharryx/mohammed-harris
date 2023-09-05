@@ -14,6 +14,7 @@ const Navbar = () => {
         return (
             <motion.div
                 animate={{ opacity: [0, 1], transition: { duration: 0.5, repeat: Infinity } }}
+                className='text-textLight'
             >
                 |
             </motion.div>
