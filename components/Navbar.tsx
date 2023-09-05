@@ -10,6 +10,16 @@ const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
 
+    const BlinkingCursor = () => {
+        return (
+            <motion.div
+                animate={{ opacity: [0, 1], transition: { duration: 0.5, repeat: Infinity } }}
+            >
+                |
+            </motion.div>
+        );
+    };
+
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         e.preventDefault();
         setShowMenu(false);
@@ -40,9 +50,9 @@ const Navbar = () => {
                     initial={{ opacity: 0 }} // Initial opacity
                     animate={{ opacity: 1 }} // Final opacity
                     transition={{ duration: 0.5 }} // Animation duration
-                    className="text-textDarkGold text-2xl font-bold"
+                    className="text-textDarkGold text-2xl font-bold flex items-center"
                 >
-                    mohammed-harris();
+                    mohammed-harris();  <BlinkingCursor />
                 </motion.div>
                 <div className='hidden mdl:inline-flex items-center gap-7'>
                     <ul className='flex text-[13px] gap-7'>
@@ -261,12 +271,12 @@ const Navbar = () => {
                                             </span>
                                         </motion.a >
                                     </div>
-                                    <motion.a 
-                                    initial={{ y: 20, opacity: 0 }}
-                                    animate={{ y: 0, opacity: 1 }}
-                                    transition={{ delay: 1, ease: "easeIn" }}
-                                    href='mailto:mohammedharrisjinnah@gmail.com' 
-                                    className='text-md w-42 tracking-wide text-textDarkGold  hover:text-textLightGold hover:-translate-y-2 transition-all duration-300'>
+                                    <motion.a
+                                        initial={{ y: 20, opacity: 0 }}
+                                        animate={{ y: 0, opacity: 1 }}
+                                        transition={{ delay: 1, ease: "easeIn" }}
+                                        href='mailto:mohammedharrisjinnah@gmail.com'
+                                        className='text-md w-42 tracking-wide text-textDarkGold  hover:text-textLightGold hover:-translate-y-2 transition-all duration-300'>
                                         <FaEnvelope />
                                     </motion.a>
                                 </div>
