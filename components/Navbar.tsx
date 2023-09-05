@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Link from 'next/link';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion } from "framer-motion";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
@@ -9,6 +9,35 @@ const Navbar = () => {
     const ref = useRef<string | any>('')
 
     const [showMenu, setShowMenu] = useState(false);
+
+    const TypingAnimation = () => {
+        const name = "mohammed-harris();";
+        const [text, setText] = useState("");
+
+        useEffect(() => {
+            let index = 0;
+            const interval = setInterval(() => {
+                if (index < name.length) {
+                    setText(name.slice(0, index + 1));
+                    index++;
+                } else {
+                    clearInterval(interval);
+                }
+            }, 100); // Adjust the typing speed as needed
+            return () => clearInterval(interval);
+        }, []);
+
+        return (
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                className="text-textDarkGold text-2xl font-bold flex items-center"
+            >
+                {text}
+            </motion.div>
+        );
+    };
 
     const BlinkingCursor = () => {
         return (
@@ -53,7 +82,7 @@ const Navbar = () => {
                     transition={{ duration: 0.5 }} // Animation duration
                     className="text-textDarkGold text-2xl font-bold flex items-center"
                 >
-                    mohammed-harris();  <BlinkingCursor />
+                    <TypingAnimation />  <BlinkingCursor />
                 </motion.div>
                 <div className='hidden mdl:inline-flex items-center gap-7'>
                     <ul className='flex text-[13px] gap-7'>
