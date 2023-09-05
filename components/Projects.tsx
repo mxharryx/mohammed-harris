@@ -36,7 +36,7 @@ const Projects = () => {
         des='AI Chat Application that lets you create a fictional AI Companion by providing relevant details. 
         Built as a SaaS product incorporating Stripe.'
         listItem={[<TbBrandNextjs />, <FaReact />, <FaStripeS />, <SiPrisma />, <SiMysql />, <BiLogoTailwindCss />]}
-        link='https://ai-companion-black.vercel.app'/>
+        link='https://ai-companion-livid.vercel.app'/>
         <ProjectCards title='Landing Page'
         des='Visually appealing landing Page for a fictional shoe brand'
         listItem={[<FaCss3 />, <FaHtml5 />, <BiLogoJavascript />]}
