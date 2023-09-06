@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiLogoTailwindCss } from 'react-icons/bi';
+import { BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi';
 import { FaAws, FaBootstrap, FaDocker, FaFigma, FaHtml5, FaJava, FaNodeJs, FaPython, FaReact, FaUnity } from 'react-icons/fa';
 import { MdJavascript } from 'react-icons/md';
 import { SiBlender, SiCplusplus, SiCsharp, SiExpress, SiMicrosoftazure, SiMysql, SiPostman, SiUnrealengine } from 'react-icons/si';
@@ -32,6 +32,10 @@ const Skills = () => {
         <div className='flex items-center'>
           <FaReact className='text-2xl text-textDarkGold hover:text-textLightGold' />
           <span className='ml-2 text-sm font-medium text-textLight'>React</span>
+        </div>
+        <div className='flex items-center'>
+          <BiLogoTypescript className='text-2xl text-textDarkGold hover:text-textLightGold' />
+          <span className='ml-2 text-sm font-medium text-textLight'>Typescript</span>
         </div>
         <div className='flex items-center'>
           <TbBrandNextjs className='text-2xl text-textDarkGold hover:text-textLightGold' />
