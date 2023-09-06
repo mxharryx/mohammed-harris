@@ -5,7 +5,7 @@ import React from 'react'
 import SectionTitle from './SectiontTitle';
 import {FaPython, FaHtml5, FaCss3, FaReact, FaJava, FaStripeS} from 'react-icons/fa';
 import {SiDjango, SiMysql, SiPrisma} from 'react-icons/si';
-import {BiLogoTailwindCss,BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';
+import {BiLogoTailwindCss,BiLogoJavascript, BiLogoTypescript, BiLogoCss3} from 'react-icons/bi';
 import {TbBrandVercel,TbBrandJavascript, TbBrandPowershell, TbBrandNextjs} from 'react-icons/tb';
 
 
@@ -30,7 +30,7 @@ const Projects = () => {
         des='A movie website features a user login system, allowing users to create profiles and personalize their movie preferences. 
         Users can browse through a diverse catalog of movies.
         Includes interactive reviews and rating system.'
-        listItem={[<FaPython />, <FaHtml5 />, <SiDjango />]}
+        listItem={[<FaPython />, <FaHtml5 />, <BiLogoCss3 />, <SiDjango />]}
         link='https://github.com/mxharryx/GoldenTicket'/>
         <ProjectCards title='AI - Companion'
         des='AI Chat Application that lets you create a fictional AI Companion by providing relevant details. 
