@@ -14,8 +14,8 @@ const Banner = () => {
         initial={{y:10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.5,delay:1.9}}
-        className='text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col'>
-            Mohammed Harris <span className='text-textDark mt-2 lgl:mt-4'>Software Developer</span>
+        className='text-5xl lgl:text-7xl font-titleFont font-semibold flex flex-col'>
+            Mohammed Harris. <span className='text-textDark mt-2 lgl:mt-4'>Software Developer</span>
         </motion.h1>
         <motion.p
         initial={{y:10, opacity:0}}
