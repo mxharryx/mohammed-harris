@@ -18,9 +18,6 @@ export default function Home() {
     <>
     <Head>
     <title>Mohammed Harris | Software Developer | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Encode+Sans+Semi+Condensed&family=La+Belle+Aurore&family=Roboto&display=swap" rel="stylesheet"/>
       <meta name="description" content="Passionate software developer actively seeking new opportunities. Skilled in creating innovative solutions and crafting engaging user experiences. Eager to contribute my expertise to a dynamic team and take on new challenges in the world of technology. Open to exciting job opportunities that align with my skills and drive for excellence. "/>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="keywords" content="Mohammed Harris Jinnah Mohideen, Mohammed, Mohamed, Muhammad, Harris, Mohideen, Software Developer, Game Developer, Cloud Developer, Portfolio" />
