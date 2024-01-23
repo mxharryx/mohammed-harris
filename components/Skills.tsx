@@ -14,6 +14,10 @@ const Skills = () => {
       <SectionTitle title="Skills I Possess" />
       <div className='flex flex-wrap gap-4 mt-10 lgl:px-10'>
       <div className='flex items-center'>
+          <SiMicrosoftazure className='text-2xl text-textDarkGold hover:text-textLightGold' />
+          <span className='ml-2 text-sm font-medium text-textLight'>Microsoft Azure</span>
+        </div>
+      <div className='flex items-center'>
           <SiCplusplus className='text-2xl text-textDarkGold hover:text-textLightGold' />
           <span className='ml-2 text-sm font-medium text-textLight'>C++</span>
         </div>
@@ -70,10 +74,7 @@ const Skills = () => {
           <span className='ml-2 text-sm font-medium text-textLight'>Django</span>
         </div>
         
-        <div className='flex items-center'>
-          <SiMicrosoftazure className='text-2xl text-textDarkGold hover:text-textLightGold' />
-          <span className='ml-2 text-sm font-medium text-textLight'>Microsoft Azure</span>
-        </div>
+        
         <div className='flex items-center'>
           <FaUnity className='text-2xl text-textDarkGold hover:text-textLightGold' />
           <span className='ml-2 text-sm font-medium text-textLight'>Unity</span>
