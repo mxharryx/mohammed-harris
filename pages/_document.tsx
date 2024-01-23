@@ -11,7 +11,7 @@ export default function Document() {
         <link rel="canonical" href="https://mohammed-harris-vercel.app" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com"/>
-      <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Encode+Sans+Semi+Condensed&family=La+Belle+Aurore&family=Roboto&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap" rel="stylesheet" />
       </Head>
       <body>
         <Main />
