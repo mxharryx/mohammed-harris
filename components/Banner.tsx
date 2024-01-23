@@ -7,7 +7,7 @@ const Banner = () => {
         initial={{y:10, opacity:0}}
         animate={{y:0, opacity:1}}
         transition={{duration:0.5, delay:1.7}}
-        className='text-lg font-titleFont tracking-wide text-textDarkGold'>
+        className='text-lg font-medium tracking-wide text-textDarkGold'>
             Hey there 👋 Welcome to my Portfolio! My name is 
         </motion.h3>
         <motion.h1
