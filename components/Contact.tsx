@@ -9,7 +9,7 @@ const Contact = () => {
         Have an opportunity?
       </h2>
       <p className='max-w-[600px] text-center text-textDark'>
-      I am <span className='text-textDarkGold'>Actively seeking</span> Job opportunities in <span className='text-textLightGold'>Cloud Development</span>, <span className='text-textLightGold'>Full Stack Development</span>, and <span className='text-textLightGold'>Game Development</span> roles.
+      I am <span className='text-textDarkGold'>Actively seeking</span> Job opportunities in <span className='text-textLightGold'>Cloud Development</span> roles.
       </p>
       <a href='mailto:mohammedharrisjinnah@gmail.com'>
         {""}

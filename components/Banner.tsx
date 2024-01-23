@@ -15,7 +15,7 @@ const Banner = () => {
         animate={{y:0, opacity:1}}
         transition={{duration:0.5,delay:1.9}}
         className='text-5xl lgl:text-7xl font-titleFont font-semibold flex flex-col'>
-            Mohammed Harris. <span className='text-textDark mt-2 lgl:mt-4'>Software Developer</span>
+            Mohammed Harris. <span className='text-textDark mt-2 lgl:mt-4'>Azure Cloud Engineer</span>
         </motion.h1>
         <motion.p
         initial={{y:10, opacity:0}}
@@ -24,7 +24,7 @@ const Banner = () => {
         className='text-base md:max-w-[650px] text-textDark font-medium'>
             {""}
             Masters graduate of Applied Computing. 
-            I specialize in building interactive games, developing user-friendly interfaces, and leveraging technologies to bring ideas to life with creativity and precision.
+            As an Azure Cloud Engineer, I specialize in crafting innovative solutions. Certified in Microsoft Azure Fundamentals and Azure Administrator, I excel in architecting and optimizing cloud environments. 
             {""}
         </motion.p>
         
