@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaGithub, FaLinkedin, FaInstagram, FaTwitter}from 'react-icons/fa';
+import { SiMedium } from 'react-icons/si';
 
 const LeftSide = () => {
   return (
@@ -23,6 +24,11 @@ const LeftSide = () => {
                 <a href='https://twitter.com/mohammedharris_' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-bodyColor rounded-full inline-flex items-center justify-center hover:text-textLightGold cursor-pointer hover:-translate-y-2 transition-all duration-300' >
                     <FaTwitter />
+                    </span>
+                </a> 
+                <a href='https://medium.com/@mohammedharrisjinnah' target='_blank'>
+                <span className='w-10 h-10 text-xl bg-bodyColor rounded-full inline-flex items-center justify-center hover:text-textLightGold cursor-pointer hover:-translate-y-2 transition-all duration-300' >
+                    <SiMedium />
                     </span>
                 </a> 
         </div>
