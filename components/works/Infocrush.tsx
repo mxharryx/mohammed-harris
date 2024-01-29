@@ -10,7 +10,7 @@ const Infocrush = () => {
     transition={{delay:0.1}}
     className='w-full'
     >
-        <h3 className='flex gap-1 text-textDarkGold font-medium text-xl font-titleFont'>Software Developer (Co-op)</h3>
+        <h3 className='flex gap-1 text-textDarkGold font-medium text-xl font-titleFont'>Cloud Developer (Co-op)</h3>
         <p className='text-sm mt-1 font-medium text-textDark'>May 2022 - Aug 2022</p>
         <ul className='mt-6 flex flex-col gap-3'>
             <li className='text-base flex gap-2 text-textDark'><span className='text-textDarkGold'><TiArrowForward/></span>
